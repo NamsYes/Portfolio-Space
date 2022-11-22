@@ -104,13 +104,10 @@ header {
     padding-left: 200px;
 }
 
-.container .Presentation button{
-    width: 10vw;
-}
 
 
 .container .Presentation h2{
-    font-family: Futura ;
+    font-family: Futura-medium ;
     font-weight: initial;
     font-size: 50px;
     color: white;
@@ -123,8 +120,6 @@ header {
     color: white;
     margin-top: 10px;
 
-
-
 }
 
 .container .Presentation p{
@@ -136,10 +131,82 @@ header {
     margin-top: 20px;
 }
 
-.container .Presentation button {
+.container .Presentation button{
+    margin-top: 2%;
+    width: 18vw;
+    border-radius: 38px;
+    border: none;
     padding: 25px;
+    font-size: 18px;
+    font-family: Futura-medium;
+    background-color: white;
 }
-.part2 {
-    height: 300px;
+
+.Projet {
+
+    height: 80vh;
     background-color: #0D022E;
+    display: flex;
+    flex-direction: column;
+    padding-top: 7%;
+}
+
+
+.Projet h1 {
+    display: flex;
+    align-self: center;
+    font-family: Adlinnaka;
+    color: white;
+    padding-bottom: 2%;
+}
+
+.Projet .listeProjet .spinforeat{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 20px;
+    margin: 50px;
+}
+
+.Projet .listeProjet .spinforeat img {
+    width: 130px;
+}
+
+.Projet .listeProjet .spinforeat .case{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height:350px;
+    background-color: white;
+    border-radius: 25px;
+
+}
+
+.Projet .listeProjet .spinforeat button {
+    margin-top: 1%;
+    width: 20vw;
+    border-radius: 38px;
+    border: none;
+    padding: 12px;
+    height: 8vh;
+    font-size: 17px;
+    font-family: "Futura-medium";
+    border: solid 2px #0D022E;
+    background-color: transparent;
+    color: white;
+    margin-top: 20px;
+}
+
+.Projet  a {
+    color: #0D022E;
+}
+
+.Projet .listeProjet {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+
 }
