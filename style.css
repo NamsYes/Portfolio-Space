@@ -14,21 +14,32 @@
     scroll-behavior: smooth;
 }
 
-
 *{
     margin: 0;
     padding: 0;
     text-decoration: none;
     list-style: none;
     color:#2B2B2B;
+
+}
+body {
+    cursor: url("Public/Pointer B.svg"),pointer;
 }
 
-
-/* BLOC DU HEADER */
-
-
+button, a {
+    cursor: url("Public/Pointer C.svg"),pointer;
+}
 header {
     width: 100vw;
+}
+
+.sticky {
+    background-color: red;
+    height: 100px;
+
+}
+.banner {
+
 }
 
 .navbar	{
@@ -39,18 +50,19 @@ header {
     justify-content: space-between;
     width: 100%;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Futura', sans-serif;
     position: fixed;
-
+    transition: 0.8s;
 }
 
 .navbar img {
-
     height: 4.5vh;
     margin-left: 20px;
 }
 
 .navbar a {
+    font-size: 20px;
+
     color:white;
 }
 
@@ -68,9 +80,37 @@ header {
 }
 
 .navbar .navlink ul li :hover {
-    text-decoration: none;
-    text-decoration:underline;
+
 }
+
+.sticky .navbar {
+    padding: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Futura', sans-serif;
+    position: fixed;
+    transition: 0.8s;
+    background-color: #070e21;
+    z-index: 1;
+
+
+}
+
+.sticky .navbar a {
+    font-size: 20px;
+    transition: 0.9s;
+}
+
+.sticky .navbar img {
+
+    height: 4.5vh;
+    margin-left: 20px;
+}
+
+/* MENU POUR TELEPHONE */
 
 
 .navbar .menu-ham {
@@ -91,10 +131,12 @@ header {
 }
 
 .container {
-    background-image:url("Public/Background.svg") ;
+    background-image:url("Public/Background2(bis).svg") ;
     background-size: cover;
     height: 100vh;
     width: 100vw;
+
+
 }
 
 .container .Presentation {
@@ -107,7 +149,7 @@ header {
 
 
 .container .Presentation h2{
-    font-family: Futura-medium ;
+    font-family: Futura-medium, sans-serif ;
     font-weight: initial;
     font-size: 50px;
     color: white;
@@ -115,7 +157,7 @@ header {
 }
 
 .container .Presentation h1{
-    font-family: Adlinnaka ;
+    font-family: 'Adlinnaka',sans-serif ;
     font-size: 50px;
     color: white;
     margin-top: 10px;
@@ -123,7 +165,7 @@ header {
 }
 
 .container .Presentation p{
-    font-family: "Helvetica Neue";
+    font-family: "Helvetica Neue",sans-serif;
     font-size: 20px;
     color: white;
     width:30vw ;
@@ -138,7 +180,7 @@ header {
     border: none;
     padding: 25px;
     font-size: 18px;
-    font-family: Futura-medium;
+    font-family: Futura-medium,sans-serif;
     background-color: white;
 }
 
@@ -155,49 +197,9 @@ header {
 .Projet h1 {
     display: flex;
     align-self: center;
-    font-family: Adlinnaka;
+    font-family: Adlinnaka,sans-serif;
     color: white;
     padding-bottom: 2%;
-}
-
-.Projet .listeProjet .spinforeat{
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-top: 20px;
-    margin: 50px;
-}
-
-.Projet .listeProjet .spinforeat img {
-    width: 130px;
-}
-
-.Projet .listeProjet .spinforeat .case{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 350px;
-    height:350px;
-    background-color: white;
-    border-radius: 25px;
-
-}
-
-.Projet .listeProjet .spinforeat button {
-    margin-top: 1%;
-    width: 20vw;
-    border-radius: 38px;
-    border: none;
-    padding: 12px;
-    height: 8vh;
-    font-size: 17px;
-    font-family: "Futura-medium";
-    border: solid 2px #0D022E;
-    background-color: transparent;
-    color: white;
-    margin-top: 20px;
 }
 
 .Projet  a {
@@ -208,5 +210,199 @@ header {
     display: flex;
     flex-direction: row;
     overflow-x: scroll;
+}
 
+
+.Projet .listeProjet .whiteBox{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 20px;
+    margin: 50px;
+}
+
+.Projet .listeProjet .whiteBox img {
+    width: 130px;
+}
+
+.Projet .listeProjet .whiteBox .case{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height:350px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.Projet .listeProjet .whiteBox .case button {
+
+    width: 17vw;
+    border-radius: 38px;
+    height: 8vh;
+    font-size: 17px;
+    font-family: "Futura-medium",sans-serif;
+    border: solid 2px #0D022E;
+    background-color: transparent;
+    color: #0D022E;
+    margin-top: 20px;
+    transition-timing-function: ease-out;
+    transition: color 0.6s;
+
+}
+
+.Projet .listeProjet .whiteBox .case button:hover {
+    background-color: #0D022E;
+    transition: 0.6s;
+    width: 300px;
+    color: white;
+}
+
+
+
+.Parcours {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    height: 210vh;
+    background-color: white;
+}
+
+.Parcours h1 {
+
+    align-self: center;
+    font-family: Adlinnaka;
+    color: black;
+    padding-top: 7%;
+}
+
+.Parcours p {
+    font-size: 20px;
+    font-family: "Helvetica Neue";
+    padding-top: 1.5%;
+    padding-bottom: 5%;
+}
+
+
+.Parcours img {
+
+    padding-right: 8%;
+}
+
+.Parcours .box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 48vw;
+    height: 13%;
+    background-color: #100548;
+    border-radius: 15px;
+}
+
+.Parcours .box:hover {
+   background-color: #4658A3;
+}
+
+.Parcours .box h5 {
+   font-family: Adlinnaka;
+    font-size: 18px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.Parcours .box h3 {
+    font-family: Adlinnaka;
+    font-size: 20px;
+    color: white;
+    padding-bottom: 8px;
+}
+
+.Parcours .box h4 {
+    font-family: "helvetica Neue";
+    font-size: 16px;
+    color: white;
+}
+
+.Parcours .ligne {
+    width: 5px;
+    height: 10%;
+    background-color: #dedede;
+}
+
+.scolaire {
+
+    height: 80vh;
+    background-color: #0D022E;
+    display: flex;
+    flex-direction: column;
+    padding-top: 7%;
+}
+
+
+.scolaire h1 {
+    display: flex;
+    align-self: center;
+    font-family: Adlinnaka;
+    color: white;
+    padding-bottom: 2%;
+}
+
+.scolaire  a {
+    color: #0D022E;
+}
+
+.scolaire .listeProjetScolaire {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+}
+
+
+.scolaire .listeProjetScolaire .whiteBox{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 20px;
+    margin: 50px;
+}
+
+
+
+.scolaire .listeProjetScolaire .whiteBox .case{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 315px;
+    height:315px;
+    background-image: url("Public/Background.svg");
+    border-radius: 100%;
+}
+
+.scolaire .listeProjetScolaire .whiteBox h2{
+    font-size: 20px;
+    color: white;
+    font-family:Futura;
+}
+
+.scolaire .listeProjetScolaire .whiteBox {
+    filter: grayscale(100%);
+    z-index: 2;
+
+}
+
+.scolaire .listeProjetScolaire :hover {
+    cursor: url("Public/Pointer C.svg"),pointer;
+    transition: 0.6s;
+    filter: none;
+    webkit-filter: grayscale(0);
+}
+
+.pap{
+    height: 1000px;
 }

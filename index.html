@@ -4,75 +4,189 @@
     <meta charset="UTF-8">
     <title>Namakan Portofolio</title>
     <link rel="stylesheet" href="style.css"/>
+    <link rel="icon" type="image/svg" href="Public/LogoOnglet.svg" />
+
 </head>
+
+
 <body>
     <header>
         <nav class="navbar">
-            <img src="Public/LogoName.svg" class="LOGO"> </a>
+            <img src="Public/LogoName.svg" class="LOGO" alt="MonLogo">
             <div class="navlink">
                 <ul>
                     <li><a href="#" class="">Accueil</a></li>
-                    <li><a href="#Competences" class="">Compétences</a></li>
+                    <li><a href="#" class="">Compétences</a></li>
                     <li><a href="#Parcours" class="">Parcours</a></li>
                     <li><a href="#" class="">Contact</a></li>
                 </ul>
 
             </div>
-            <img src="Public/suite.png" alt="menu hamb" class="menu-ham">
+            <img src="Public/Hamburger.svg" alt="menu hamb" class="menu-ham">
         </nav>
     </header>
+    <section class="banner"> </section>
+    <script type="text/javascript">
+    window.addEventListener("scroll",function(){
+        const header = document.querySelector("header");
+        header.classList.toggle("sticky",window.scrollY > 380)
+        })
+    </script>
     <div class="container">
         <div class="Presentation">
+
             <h2>Namakan</h2>
             <h1>MAGASSOUBA</h1>
-            <p>Passionée par le Digital et le dessin, je suis vers les Web Design ou de communication
-                    cela me permettrait de concilier mes deux vocations tout en acquérant de l’expérience
+            <p>Passioné par le Digital et le dessin, j'ai souahité m'orienter vers l'informatique puis le Web design
+                    afin de concilier mes deux vocations tout en acquérant de l’expérience
                     professionnelle.
             </p>
-            <button> <a href="img/Cv design.pdf"> Télecharger mon CV !</a> </button>
+            <button> <a href="#"> Télecharger mon CV !</a> </button>
         </div>
     </div>
     <div class="Projet">
 
-        <h1>Découvre mes projets</h1>
+        <h1>Découvre mes projets personnels</h1>
         <div class="listeProjet">
 
-            <div class="spinforeat">
+            <div class="whiteBox">
                 <div class="case">
                     <div class="img">
-                        <img src="Public/Spin.png" alt="">
+                        <img src="Public/Spin.png" alt="ProjetSpin">
                     </div>
-                    <button> <a href="img/xx.pdf"> Découvrir SpinforEat !</a> </button>
+                    <button onclick="window.location.href = 'https://spinforeat.com';"> Découvrir SpinforEat ! </button>
                 </div>
             </div>
 
-            <div class="spinforeat">
+            <div class="whiteBox">
                 <div class="case">
                     <div class="img">
-                        <img src="Public/Spin.png" alt="">
+                        <img src="Public/Spin.png" alt="ProjetTutti">
                     </div>
-                    <button> <a href="img/xx.pdf"> Découvrir SpinforEat !</a> </button>
+                    <button onclick="window.location.href = 'https://spinforeat.com';"> Découvrir SpinforEat ! </button>
                 </div>
             </div>
 
-            <div class="spinforeat">
+            <div class="whiteBox">
                 <div class="case">
                     <div class="img">
-                        <img src="Public/Spin.png" alt="">
+                        <img src="Public/Spin.png" alt="ProjetTrending">
                     </div>
-                    <button> <a href="img/xx.pdf"> Découvrir SpinforEat !</a> </button>
+                    <button onclick="window.location.href = 'https://spinforeat.com';"> Découvrir SpinforEat ! </button>
                 </div>
             </div>
 
-            <div class="spinforeat">
+            <div class="whiteBox">
                 <div class="case">
                     <div class="img">
-                        <img src="Public/Spin.png" alt="">
+                        <img src="Public/Spin.png" alt="ProjetOdifind">
                     </div>
-                    <button> <a href="img/xx.pdf"> Découvrir SpinforEat !</a> </button>
+                    <button onclick="window.location.href = 'https://spinforeat.com';"> Découvrir SpinforEat ! </button>
                 </div>
+            </div>
+
+            <div class="whiteBox">
+                <div class="case">
+                    <div class="img">
+                        <img src="Public/Spin.png" alt="ProjetOdifind">
+                    </div>
+                    <button onclick="window.location.href = 'https://spinforeat.com';"> Découvrir SpinforEat ! </button>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="Parcours" id="Parcours">
+
+        <h1> Mon parcours de formation</h1>
+        <p> Voici les formations que j'ai pû suivre jusqu'à présent ainsi que celle que je vise !</p>
+
+        <div class="box">
+            <img src="Public/FormationA.svg" style="height: 80px" alt="BAC">
+            <div class="infos">
+                <h5>2020</h5>
+                <h3>Baccalaureat ES option mathématiques</h3>
+                <h4>Lycée Lamartine</h4>
             </div>
         </div>
+
+        <div class="ligne"></div>
+
+        <div class="box">
+            <img src="Public/FormationC.svg" style="height: 80px" alt="LLCER">
+            <div class="infos">
+                <h5>2020-2021</h5>
+                <h3>Licence Langues, Littérature, Civilisations</h3>
+                <h4>Sorbonne Université V</h4>
+            </div>
+        </div>
+
+        <div class="ligne"></div>
+
+        <div class="box">
+            <img src="Public/FormationB.svg" style="height: 80px" alt="SIO">
+            <div class="infos">
+                <h5>2021 - 2023</h5>
+                <h3>Brevet Technique supérieur informatique</h3>
+                <h4>Groupe La Madone</h4>
+            </div>
+        </div>
+
+        <div class="ligne"></div>
+
+        <div class="box">
+            <img src="Public/FormationD.svg" style="height: 80px" alt="Gobellins">
+            <div class="infos">
+                <h5>2023-2025</h5>
+                <h3>Formation de Concepteur designer UI</h3>
+                <h4>Les Gobellins</h4>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="scolaire">
+
+            <h1>Découvre mes projets scolaires</h1>
+            <div class="listeProjetScolaire">
+
+                <div class="whiteBox">
+                    <div class="case">
+                        <h2>Projet Festival</h2>
+                    </div>
+                </div>
+
+                <div class="whiteBox">
+                    <div class="case">
+                        <h2>Projet Festival V2</h2>
+                    </div>
+                </div>
+
+                <div class="whiteBox">
+                    <div class="case">
+                        <h2>Projet Parking</h2>
+                    </div>
+                </div>
+
+                <div class="whiteBox">
+                    <div class="case">
+                        <h2>Projet Idea-Box</h2>
+                    </div>
+                </div>
+
+                <div class="whiteBox">
+                    <div class="case">
+                        <h2>Projet M2L</h2>
+                    </div>
+                </div>
+
+            </div>
+    </div>
+<div class="pap"></div>
+
+
 
 </body>
 </html>
