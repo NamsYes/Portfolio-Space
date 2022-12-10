@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+@font-face {
+    font-family: 'Adlinnaka';
+    src: url('font/Adlinnaka-BoldDemo.woff2') format('woff2'),
+    url('font/Adlinnaka-BoldDemo.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root{
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    color:#2B2B2B;
+
+}
+body {
+    cursor: url("Public/Pointer B.svg"), pointer;
+    background-image: url("Public/Background2(bis).svg");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    background-attachment: fixed;
+
+}
+
+button, a {
+    cursor: url("Public/Pointer C.svg"),pointer;
+}
+
+header {
+    width: 100vw;
+}
+
+
+.banner {
+
+}
+
+.navbar	{
+
+    padding: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Futura', sans-serif;
+    transition: 0.8s;
+}
+
+.navbar img {
+    height: 4.5vh;
+    margin-left: 20px;
+}
+
+.navbar a {
+    font-size: 20px;
+
+    color:white;
+}
+
+.navbar .navlink ul {
+    display: flex;
+    color: white;
+    margin-right: 60px;
+}
+
+
+.navbar .navlink ul li {
+    display: flex;
+    margin: 25px;
+    font-size: 1.01em;
+}
+
+.navbar .navlink ul li :hover {
+
+}
+
+
+
+/* MENU POUR TELEPHONE  */
+
+
+.navbar .menu-ham {
+    display: none
+}
+
+@media screen and (max-width:1000px) {
+
+    .navbar .menu-ham {
+        display: block;
+        width: 36px;
+        height: 38px;
+        padding-right: 20px;
+    }
+
+    .navlink{
+        display: none;
+    }
+
+}
+
+
+
+/* ======== CSS DE LA PAGE D'ACCUEIL ======= */
+
+
+@media screen and (max-width: 1000px) {
+    .container p{
+        display: flex;
+        /*width: 60vw !important;*/
+        text-align: left;
+    }
+}
+
+
+.container {
+    background-image:url("Public/Background2(bis).svg") ;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.affiche {
+    display: flex;
+    flex-direction: row;
+    margin: 70px;
+
+}
+
+.affiche .desc{
+    background-color: #ffffff;
+    width:50em;
+    margin-right:110px;
+    height: auto;
+    border-radius: 30px;
+    margin-bottom: 60px;
+}
+
+.affiche h2 {
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+.affiche .ressources {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 25em;
+    height: 450px;
+    border-radius: 30px;
+    font-family: Futura;
+    margin-left: 850px;
+    position: fixed;
+
+}
+
+.affiche img {
+    padding-right: 15px;
+}
+
+.ressources .git{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+    width: 80%;
+    background-color: #25292E;
+    border-radius: 10px;
+    box-shadow: 2px 4px 5px rgba(173, 173, 173, 0.3);
+    margin: 15px;
+
+}
+
+
+.ressources .lien{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+    width: 80%;
+    background-color: white;
+    box-shadow: 2px 4px 5px rgba(173, 173, 173, 0.3);
+    border-radius: 10px;
+    margin: 15px;
+
+}
+
+
+.ressources .lien:hover{
+    background-color: #efefef;
+    color: white;
+}
+
+.ressources .git p {
+    color: white;
+}
+
+.ressources h2 {
+    font-size: 21px;
+}
+
+.ressources .lien p {
+    font-size: 19.3px;
+}
+
+.ressources .git p {
+    font-size: 18.4px;
+}
+
+
+.desc {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.desc .containname {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+    width: 620px;
+    background-color: white;
+    border:solid 3px #F0F0F0;
+    border-radius: 25px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+
+
+}
+
+.desc .attendus {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 620px;
+    background-color: white;
+    border:solid 3px #F0F0F0;
+    border-radius: 12px;
+}
+
+.desc .tags{
+    margin-bottom: 30px;
+}
+
+
+.desc .containname h3 {
+    font-size: 20px;
+    font-family: Adlinnaka;
+}
+
+.desc p {
+    font-family: Helvetica;
+
+    font-size: 19px;
+    margin-right: 80px;
+    margin-left: 68px;
+    text-align: justify;
+    padding-bottom: 50px;
+
+}
+
+.desc .attendus p {
+    font-family: Helvetica;
+    padding-top: 50px;
+    font-size: 18px;
+    margin: 30px;
+    text-align: justify;
+    padding-bottom: 50px;
+}
+
+.desc span {
+    font-family: Helvetica-light;
+    margin: 30px;
+    color: #a4a4a4;
+}
+
+.competences p {
+    padding-bottom: 10px ;
+}

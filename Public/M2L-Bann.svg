@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="632" height="240" viewBox="0 0 632 240">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_68" data-name="Rectangle 68" width="51.607" height="21.491" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Groupe_30" data-name="Groupe 30" transform="translate(-162 -545)">
+    <g id="Rectangle_53" data-name="Rectangle 53" transform="translate(162 545)" fill="#1d2b5c" stroke="#f0f0f0" stroke-width="3">
+      <rect width="632" height="240" rx="10" stroke="none"/>
+      <rect x="1.5" y="1.5" width="629" height="237" rx="8.5" fill="none"/>
+    </g>
+    <path id="Tracé_32" data-name="Tracé 32" d="M54,0A54,54,0,1,1,0,54,54,54,0,0,1,54,0Z" transform="translate(424 611)" fill="#0b1138"/>
+    <g id="Groupe_33" data-name="Groupe 33" transform="translate(452.197 654.255)">
+      <g id="Groupe_32" data-name="Groupe 32" transform="translate(0 0)" clip-path="url(#clip-path)">
+        <path id="Tracé_33" data-name="Tracé 33" d="M22.256,21.272H16.295l-.422-9.624-.18-3.84q-.094,1.106-.217,2.112t-.3,1.948l-1.792,9.4H8.735L7.2,11.853q-.136-.819-.369-2.816c-.019-.2-.061-.611-.124-1.23L6.575,11.7l-.5,9.571H0L2.461.164h7.1l1.188,7.109q.15.875.268,1.9t.21,2.23a34.629,34.629,0,0,1,.492-3.6L13.166.164h7.039Z" transform="translate(0 0.219)" fill="#fff"/>
+        <path id="Tracé_34" data-name="Tracé 34" d="M24.909,21.491H10.376l5.77-7.7q.983-1.312,1.654-2.345a16.612,16.612,0,0,0,1.052-1.825,6.719,6.719,0,0,0,.754-3.061A2.324,2.324,0,0,0,19.249,5.2a1.12,1.12,0,0,0-.971-.506q-1.365,0-1.367,2.569,0,.136.007.329c0,.128.012.278.021.45H11.4l-.028-.765a7.2,7.2,0,0,1,1.969-5.222A6.746,6.746,0,0,1,18.416,0a6.487,6.487,0,0,1,4.867,1.941,6.711,6.711,0,0,1,1.9,4.963,9.693,9.693,0,0,1-1.3,4.785,17.661,17.661,0,0,1-1.7,2.44,29.068,29.068,0,0,1-2.536,2.685q1.284-.094,2.59-.138c.873-.026,1.762-.04,2.674-.04Z" transform="translate(13.833 0)" fill="#fff"/>
+        <path id="Tracé_35" data-name="Tracé 35" d="M27.821,21.272H17.842V.164h5.7V16.2h4.279Z" transform="translate(23.786 0.219)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>
