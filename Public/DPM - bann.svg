@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="632" height="240" viewBox="0 0 632 240">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_77" data-name="Rectangle 77" width="59.132" height="22.802" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Groupe_30" data-name="Groupe 30" transform="translate(-162 -545)">
+    <g id="Rectangle_53" data-name="Rectangle 53" transform="translate(162 545)" fill="#1d2b5c" stroke="#f0f0f0" stroke-width="3">
+      <rect width="632" height="240" rx="10" stroke="none"/>
+      <rect x="1.5" y="1.5" width="629" height="237" rx="8.5" fill="none"/>
+    </g>
+    <path id="Tracé_32" data-name="Tracé 32" d="M54,0A54,54,0,1,1,0,54,54,54,0,0,1,54,0Z" transform="translate(424 611)" fill="#0b1138"/>
+    <g id="Groupe_41" data-name="Groupe 41" transform="translate(448.434 653.599)">
+      <g id="Groupe_41-2" data-name="Groupe 41" transform="translate(0 0)" clip-path="url(#clip-path)">
+        <path id="Tracé_126" data-name="Tracé 126" d="M0,22.8V0H5.316a9.809,9.809,0,0,1,7.1,2.45q3.338,3.206,3.34,8.965,0,5.671-2.823,8.759Q10.53,22.8,5.759,22.8Zm6.157-5.51q3.308-.163,3.307-5.7a9.271,9.271,0,0,0-.839-4.312A2.539,2.539,0,0,0,6.349,5.686H6.157Z" transform="translate(0 0)" fill="#fff"/>
+        <path id="Tracé_127" data-name="Tracé 127" d="M13.452,22.8H7.295V0h5.966q4.461,0,6.616,1.817a7.358,7.358,0,0,1,2.541,5.951,7.252,7.252,0,0,1-2.7,6.188,8.751,8.751,0,0,1-5.3,1.374h-.96Zm0-12.6.28.015a2.366,2.366,0,0,0,1.787-.688,2.586,2.586,0,0,0,.665-1.883,2.794,2.794,0,0,0-.65-1.918,2.08,2.08,0,0,0-1.653-.754h-.428Z" transform="translate(11.092 0)" fill="#fff"/>
+        <path id="Tracé_128" data-name="Tracé 128" d="M37.965,22.8h-6.44l-.456-10.4-.194-4.149q-.1,1.195-.234,2.281t-.325,2.1L28.379,22.8H23.359L21.705,12.627q-.147-.885-.4-3.042c-.02-.217-.066-.66-.134-1.328l-.149,4.207L20.48,22.8H13.922L16.581,0h7.665l1.283,7.68q.163.945.29,2.052t.227,2.41a37.41,37.41,0,0,1,.532-3.884L28.145,0h7.6Z" transform="translate(21.168 0)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>
