@@ -9,6 +9,10 @@
     font-display: swap;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 :root{
     font-size: 16px;
     scroll-behavior: smooth;
@@ -24,7 +28,7 @@
 }
 body {
     cursor: url("Public/Pointer B.svg"), pointer;
-    background-image: url("Public/Background2(bis).svg");
+    background-image: url("Public/Background(3).jpg");
     background-size: cover;
     height: 100vh;
     width: 100vw;
@@ -40,7 +44,7 @@ header {
 }
 
 .sticky {
-    background-color: red;
+    background-color: #400e49;
     height: 100px;
 
 }
@@ -99,7 +103,7 @@ header {
     font-family: 'Futura', sans-serif;
     position: fixed;
     transition: 0.8s;
-    background-color: #070e21;
+    background-color: #201a3e;
     z-index: 1;
 
 
@@ -153,7 +157,6 @@ header {
 
 
 .container {
-    background-image:url("Public/Background2(bis).svg") ;
     background-size: cover;
     height: 100vh;
     width: 100vw;
@@ -216,7 +219,7 @@ header {
 .Projet {
 
     height: 80vh;
-    background-color: #0D022E;
+    background-color: #201a3e;
     display: flex;
     flex-direction: column;
     padding-top: 70px;
@@ -364,12 +367,14 @@ header {
     justify-content: center;
     width: 600px;
     height: 13%;
-    background-color: #100548;
+    background-color: #201a3e;
     border-radius: 15px;
 }
 
 .Parcours .box:hover {
-   background-color: #4658A3;
+   background-color: #4a2558;
+    transition: 0.8s;
+
 }
 
 .Parcours .box h5 {
@@ -401,7 +406,7 @@ header {
 .scolaire {
 
     height: 80vh;
-    background-color: #0D022E;
+    background-color: #201a3e;
     display: flex;
     flex-direction: column;
     padding-top: 7%;
